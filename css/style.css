@@ -229,6 +229,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: top center;
   background-repeat: no-repeat;
   position: relative;
+  background-color: #f4b241;
 }
 
 .fh5co-bg {
@@ -295,12 +296,20 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: scale(1.2);
 }
 
+.stretch {
+            background: url(images/bg.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+}
 .fh5co-cover {
   height: 900px;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
+  background-color: #f4b241;
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -309,7 +318,8 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0);
+
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -887,7 +897,7 @@ form label {
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  
+
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
